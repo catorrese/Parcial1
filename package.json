@@ -1,0 +1,23 @@
+{
+  "name": "parcial1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catorrese/Parcial1.git"
+  },
+  "author": "Carlos Andres Torres E.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/catorrese/Parcial1/issues"
+  },
+  "homepage": "https://github.com/catorrese/Parcial1#readme",
+  "dependencies": {
+    "eslint-config-prettier": "^8.1.0",
+    "prettier": "^2.2.1"
+  }
+}
