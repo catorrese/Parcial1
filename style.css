@@ -1,0 +1,368 @@
+header {
+  width: 1440px;
+  height: 80px;
+  left: 0px;
+  top: 2px;
+
+  background: linear-gradient(
+    270deg,
+    #745ece 0%,
+    rgba(105, 72, 237, 0.41) 47.4%,
+    #5e63c8 82.29%
+  );
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+body {
+  background: #e5e5e5;
+}
+
+.logo {
+  height: 60px;
+  width: 100px;
+  left: 100px;
+  top: 10px;
+  border-radius: 2px;
+
+  position: absolute;
+
+  width: 100px;
+  height: 60px;
+  left: 100px;
+  top: 10px;
+
+  background: url(./assets/logo_test.png);
+  mix-blend-mode: normal;
+  border-radius: 2px;
+}
+
+.filter {
+  position: absolute;
+  width: 892px;
+  height: 47px;
+  left: 448px;
+  top: 20px;
+  background: #ffffff;
+}
+
+.caja {
+  position: absolute;
+  width: 56px;
+  height: 47px;
+  left: 1284px;
+  top: 20px;
+
+  background: #e5e5e5;
+  border: 1px solid #c6c2c2;
+  box-sizing: border-box;
+}
+
+.lupa {
+  position: relative;
+  height: 36px;
+  width: 36px;
+  left: 10px;
+  top: 5px;
+  border-radius: 0px;
+  border: none;
+  background: url(./assets/lupa.png);
+}
+
+.lupa2 {
+  position: relative;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #e5e5e5;
+  border: 1px solid #c6c2c2;
+  box-sizing: border-box;
+}
+
+.favorito {
+  width: 44px;
+  height: 40px;
+  left: 1375px;
+  top: 20px;
+  border: none;
+  background: url(./assets/corazon.png);
+}
+
+.favorito2 {
+  position: relative;
+  width: 59px;
+  height: 46px;
+  left: 1367px;
+  top: 15px;
+}
+
+.tabla {
+  position: absolute;
+  width: 1240px;
+  left: 100px;
+  top: 159px;
+
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+
+.fila {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+
+.imagen {
+  width: 180px;
+  height: 180px;
+  margin-left: 44px;
+  margin-top: 30px;
+  margin-bottom: 11px;
+  border-radius: 15px;
+}
+
+.centro {
+  padding-left: 124px;
+}
+
+.price {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+
+  margin: 30px 0px 47px 0px;
+
+  color: #000000;
+}
+
+.title {
+  /*  width: 500px; */
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  margin-bottom: 74px;
+
+  color: #000000;
+}
+
+.final {
+  padding-top: 30px;
+  padding-bottom: 156px;
+}
+
+.location {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  margin: 0 79px 0 163px;
+
+  width: 150px;
+
+  color: #000000;
+}
+
+.detalle {
+  width: 1240px;
+  height: 852px;
+
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+
+.cont {
+  display: flex;
+}
+
+.imagen1 {
+  width: 563px;
+  height: 520px;
+
+  margin-left: 50px;
+  margin-top: 54px;
+  margin-bottom: 23px;
+  border-radius: 15px;
+}
+
+.cont1 {
+  padding-top: 54px;
+}
+
+.cant {
+  width: 312px;
+  height: 35px;
+
+  margin-left: 265px;
+  margin-bottom: 31px;
+  margin-right: 50px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #000000;
+}
+
+.title2 {
+  width: 312px;
+
+  margin-left: 265px;
+  margin-bottom: 26px;
+  margin-right: 50px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+}
+
+.price1 {
+  width: 312px;
+
+  margin-left: 265px;
+  margin-bottom: 48px;
+  margin-right: 50px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #000000;
+}
+
+.comprar {
+  width: 312px;
+  height: 51px;
+
+  margin-left: 265px;
+  margin-bottom: 18px;
+  margin-right: 50px;
+
+  background: #c968cb;
+  border-radius: 20px;
+}
+
+.fav {
+  width: 312px;
+  height: 51px;
+
+  margin-left: 265px;
+  margin-bottom: 273px;
+  margin-right: 50px;
+
+  background: #8c86d7;
+  border-radius: 20px;
+}
+
+.cont2 {
+}
+
+.titDesc {
+  width: 312px;
+
+  margin-left: 50px;
+  margin-bottom: 23px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 34px;
+
+  color: #000000;
+}
+
+.description {
+  margin-left: 50px;
+  margin-bottom: 31px;
+  margin-right: 362px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: justify;
+
+  color: #b8acac;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.verArt {
+  width: 200px;
+  height: 51px;
+
+  background: #c968cb;
+  border-radius: 20px;
+}
+
+.bread {
+  position: absolute;
+  width: 520px;
+  height: 32px;
+  left: 99px;
+  top: 114px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+
+  color: rgba(0, 0, 0, 0.67);
+}
